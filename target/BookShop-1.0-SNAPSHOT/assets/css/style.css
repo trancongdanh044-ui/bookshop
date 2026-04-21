@@ -1,0 +1,66 @@
+/* HEADER */
+.header {
+    background: #1460EC;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+/* LOGO */
+.header .inner-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.header .inner-logo .inner-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header .inner-logo .inner-brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* MENU */
+.header .inner-tab .inner-box {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.header .inner-tab .inner-item {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.header .inner-tab .inner-item:hover {
+    color: #cfe0ff;
+}
+
+/* ACCOUNT */
+.header .inner-account button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: white;
+    color: #1460EC;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.header .inner-account button:hover {
+    background: #1460EC;
+    color: white;
+}
+
+/*END HEADER*/

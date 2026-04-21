@@ -1,0 +1,6 @@
+ALTER TABLE Book
+ADD COLUMN discount DOUBLE DEFAULT 0 AFTER price;
+
+UPDATE Book
+SET discount = 0
+WHERE discount IS NULL;
